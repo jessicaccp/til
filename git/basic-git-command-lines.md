@@ -1,4 +1,4 @@
-# Basic git command lines
+# Basic Git command lines
 
 * **After installing git** <br />
 $ git config --global user.name "`Your Name`" <br />
