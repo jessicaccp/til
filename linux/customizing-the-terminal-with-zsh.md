@@ -6,11 +6,12 @@ $ sudo dnf install zsh
 ```
 
 - **Install oh-my-zsh**
-  - via wget
+
+via wget
 ```
 $ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
-  - via curl
+via curl
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
@@ -25,9 +26,8 @@ $ nano ~/.zshrc
 ZSH_THEME="<theme-name>"
 ```
 
-> Now, instead of setting up things in `~/.bashrc`, set up in `~/.zshrc`
-
-- **If you want to undo the change and use bash again**
+> Now, instead of setting up things in `~/.bashrc`, set up in `~/.zshrc`.<br />
+> If you want to undo the change and use bash again, then:
 ```
 $ chsh /bin/bash
 ```
