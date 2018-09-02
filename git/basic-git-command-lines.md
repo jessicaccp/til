@@ -1,28 +1,42 @@
-# Basic git command lines
+# Basic Git command lines
 
-* **After installing git** <br />
-$ git config --global user.name "`Your Name`" <br />
-$ git config --global user.email `your@email.com`
+* **After installing Git** <br />
+```
+$ git config --global user.name "<Your Name>"
+$ git config --global user.email <your@email.com>
+```
 
-* **Creating a repository and connecting it to a remote server** <br />
-$ mkdir `repository` <br />
-$ git init <br />
-$ git remote add origin `upstream`
+* **Creating a local repository and connecting it to a remote repository**
+```
+$ mkdir <repository-name>
+$ git init
+$ git remote add origin <upstream>
+```
 
-* **Or just cloning a existing repository** <br />
-$ git clone `username@host:path`
+* **Or just cloning a existing repository**
+```
+$ git clone <username@host:path>
+```
 
-* **Adding a file, commiting changes and updating the remote repository** <br />
-$ git add `file` <br />
-$ git commit -m "`Description of the changes you've made in the files added`" <br />
+* **Adding a file, commiting changes and updating the remote repository**
+```
+$ git add <file-name>
+$ git commit -m "<Description of the changes you've made in the files added>"
 $ git push
+```
 
-* **Updating from the remote repository** <br />
+* **Updating from the remote repository**
+```
 $ git pull
+```
 
-* **Creating a new branch and pushing its changes to the remote repository** <br />
-$ git checkout -b `branch-name` <br />
-$ git push origin `branch-name` <br />
+* **Creating a new branch and pushing its changes to the remote repository**
+```
+$ git checkout -b <branch-name>
+$ git push origin <branch-name>
+```
 
-* **List of available git commands** <br />
+* **List of available Git commands**
+```
 $ git help -a
+```
